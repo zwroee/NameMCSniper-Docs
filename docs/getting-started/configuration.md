@@ -134,11 +134,6 @@ snipe:
 - Rotate proxies to avoid rate limiting
 - Use proxies close to Minecraft servers geographically
 
-### Discord Setup Priority
-
-1. **Webhook** (Recommended) - Easier setup, reliable
-2. **Bot** - More features but requires more setup
-
 ## :warning: Important Notes
 
 !!! warning "Bearer Token Security"
