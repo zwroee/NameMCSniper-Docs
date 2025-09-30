@@ -33,15 +33,18 @@ A powerful CLI Minecraft username sniper that uses the NameMC API with proxy sup
    pip install -r requirements.txt
    ```
 
-3. **Create Configuration**
+3. **Launch Interactive CLI Menu**
    ```bash
-   python Main.py config-create
+   python menu.py
    ```
 
-4. **Start Sniping**
-   ```bash
-   python Main.py snipe -u "DesiredUsername" -t "your_bearer_token"
-   ```
+4. **Follow the Menu Options**
+   - Select `[11] Create Config` to set up your configuration
+   - Select `[12] Validate Config` to verify your settings
+   - Select `[1] Start Sniper` to begin sniping
+
+!!! tip "Why Use the Interactive Menu?"
+    The CLI menu provides a beautiful Matrix-style interface with easy navigation, real-time testing, and no need to remember complex commands!
 
 ## :books: Documentation Sections
 
@@ -68,7 +71,7 @@ A powerful CLI Minecraft username sniper that uses the NameMC API with proxy sup
 
 ## :handshake: Support
 
-Need help? Check out our [Support](legal/support.md) page for assistance options.
+Need help? Join our [Discord Server](https://discord.gg/b4BFqqtTqF) for community support or check out our [Support](legal/support.md) page for more assistance options.
 
 ---
 

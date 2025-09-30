@@ -4,16 +4,37 @@ Learn the essential commands and workflows for using NameMC Sniper effectively.
 
 ## :rocket: Quick Start
 
-The most basic way to start sniping:
+**Recommended: Use the Interactive CLI Menu**
+
+```bash
+python menu.py
+```
+
+This launches the beautiful interactive menu where you can easily navigate through all options using numbered selections.
+
+**Alternative: Direct Command Line**
 
 ```bash
 python Main.py snipe -u "DesiredUsername" -t "your_bearer_token"
 ```
 
+!!! tip "Why Use the Interactive Menu?"
+    The CLI menu (`python menu.py`) provides a much better user experience with:
+    
+    - **Visual interface** with ASCII art and organized categories
+    - **Easy navigation** with numbered options
+    - **Real-time testing** and validation
+    - **No need to remember complex commands**
+    - **Built-in help and guidance**
+
 ## :gear: Command Structure
 
-All NameMC Sniper commands follow this pattern:
+**Interactive Menu (Recommended):**
+```bash
+python menu.py
+```
 
+**Direct Commands (Advanced):**
 ```bash
 python Main.py [COMMAND] [OPTIONS]
 ```
@@ -69,23 +90,73 @@ python Main.py --help
 python Main.py version
 ```
 
+## :art: Interactive CLI Menu (`python menu.py`)
+
+**Launch the interactive menu:**
+```bash
+python menu.py
+```
+
+**Features:**
+- 🎨 **Beautiful ASCII Art** - Matrix-style green interface
+- 📋 **Organized Categories** - Easy navigation with numbered options
+- ⚡ **Real-time Testing** - Test tokens, proxies, and Discord integration
+- 🔧 **Configuration Management** - Create, validate, and manage configs
+- 📊 **System Information** - View logs, system stats, and performance data
+- 🎯 **One-Click Sniping** - Simple username sniping at specific times
+
+**Menu Categories:**
+- **[1] Sniper Operations** - Main sniping functionality
+- **[11-14] Configuration** - Config creation, validation, and management  
+- **[21-24] Tools & Info** - Token testing, proxy testing, logs, system info
+- **[31-33] Discord & Notifications** - Webhook setup and testing
+- **[41-43] Advanced Options** - Performance tuning, debug mode
+- **[51-53] Help & Support** - Documentation, about, GitHub links
+
+### CLI Interface Preview
+
+The interactive menu features a professional Matrix-style interface with:
+- **Green ASCII Art Logo** - Eye-catching NameMC Sniper branding
+- **Organized Menu Layout** - Clean categorized options in bordered boxes
+- **Real-time Information** - Current time display and status updates
+- **User-friendly Navigation** - Simple number-based option selection
+- **Professional Styling** - Consistent green theme throughout
+
+<img width="1918" height="983" alt="Screenshot 2025-09-30 063615" src="https://github.com/user-attachments/assets/387111dd-6039-46c1-b04c-73687cbb761a" />
+
 ## :workflow: Typical Workflow
 
-### 1. Initial Setup
+### 1. Launch Interactive Menu
 
+```bash
+# Start the interactive CLI menu
+python menu.py
+```
+
+### 2. Initial Setup (via Menu)
+
+1. **Launch menu**: `python menu.py`
+2. **Create configuration**: Select option `[11] Create Config`
+3. **Edit config.yaml** with your settings (See Configuration guide)
+4. **Validate configuration**: Select option `[12] Validate Config`
+
+**Alternative (Command Line):**
 ```bash
 # Create configuration
 python Main.py config-create
-
-# Edit config.yaml with your settings
-# (See Configuration guide for details)
 
 # Validate configuration
 python Main.py config-validate
 ```
 
-### 2. Test Your Setup
+### 3. Test Your Setup (via Menu)
 
+**Using Interactive Menu (Recommended):**
+1. Select option `[22] Test Proxies` (if using proxies)
+2. Select option `[21] Test Token` to verify bearer token
+3. Select option `[23] View Logs` to check for any issues
+
+**Alternative (Command Line):**
 ```bash
 # Test proxy connections (if using proxies)
 python Main.py test-proxies
@@ -94,8 +165,13 @@ python Main.py test-proxies
 python Main.py snipe --dry-run
 ```
 
-### 3. Start Monitoring
+### 4. Start Sniping
 
+**Using Interactive Menu (Recommended):**
+1. Select option `[1] Start Sniper`
+2. Follow the prompts to enter username and settings
+
+**Alternative (Command Line):**
 ```bash
 # Start the sniper
 python Main.py snipe -u "TargetUsername"

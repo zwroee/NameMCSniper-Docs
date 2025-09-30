@@ -76,7 +76,7 @@ What you expected to happen.
 - Sharing experiences
 
 **Join the community:**
-- Discord Server: [Invite Link]
+- Discord Server: [https://discord.gg/b4BFqqtTqF](https://discord.gg/b4BFqqtTqF)
 - Channel: #namemc-sniper-support
 
 **Community Guidelines:**
