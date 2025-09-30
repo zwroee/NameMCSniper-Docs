@@ -7,46 +7,41 @@ Configure NameMC Sniper for optimal performance with the `config.yaml` file.
 The configuration file is organized into several sections:
 
 ```yaml
-proxy:
-  enabled: true
-  proxies:
-    - "http://proxy1:port"
-    - "http://proxy2:port"
-  rotation_enabled: true
-  timeout: 10
-  max_retries: 3
-
+debug_mode: true
 discord:
-  enabled: true
-  webhook_url: "https://discord.com/api/webhooks/..."
-  bot_token: ""  # Optional: Use bot instead of webhook
-  channel_id: ""  # Required if using bot
-  mention_role_id: "123456789"  # Optional: Role to mention
   embed_color: 65280
-
-snipe:
-  target_username: "DesiredUsername"
-  bearer_token: "your_minecraft_bearer_token"
-  start_sniping_at_seconds: 30
-  max_snipe_attempts: 100
-  request_delay_ms: 25
-  concurrent_requests: 10
-  use_multiple_threads: true
-
+  enabled: true
+  mention_role_id: 'mention_role_id'
+  webhook_url: 'Discord_webhook_url'
+log_level: INFO
 notifications:
   intervals:
-    - 86400  # 24 hours
-    - 43200  # 12 hours
-    - 21600  # 6 hours
-    - 7200   # 2 hours
-    - 3600   # 1 hour
-    - 1800   # 30 minutes
-    - 300    # 5 minutes
-    - 60     # 1 minute
-    - 30     # 30 seconds
+  - 86400
+  - 43200
+  - 21600
+  - 7200
+  - 3600
+  - 1800
+  - 300
+  - 60
+  - 30
+proxy:
+  enabled: true
+  max_retries: 3
+  proxies:
+  - "http://username:password@proxy1.example.com:8080"
+  - "http://username:password@proxy2.example.com:8080"
 
-debug_mode: false
-log_level: "INFO"
+  rotation_enabled: true
+  timeout: 10
+snipe:
+  bearer_token: 'bearer_token_here'
+  concurrent_requests: 10
+  max_snipe_attempts: 100
+  request_delay_ms: 25
+  start_sniping_at_seconds: 30
+
+  target_username: 'target_username_here'
 ```
 
 ## :gear: Configuration Sections
@@ -77,8 +72,6 @@ Set up Discord notifications for real-time updates:
 |---------|------|-------------|
 | `enabled` | boolean | Enable Discord notifications |
 | `webhook_url` | string | Discord webhook URL (recommended) |
-| `bot_token` | string | Discord bot token (alternative) |
-| `channel_id` | string | Channel ID (required for bot) |
 | `mention_role_id` | string | Role ID to mention (optional) |
 | `embed_color` | integer | Embed color (decimal format) |
 
