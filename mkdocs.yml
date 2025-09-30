@@ -1,0 +1,96 @@
+site_name: NameMC Sniper Documentation
+site_description: A powerful CLI Minecraft username sniper with proxy support and Discord notifications
+site_author: NameMC Sniper Team
+site_url: https://zwroee.github.io/NameMCSniper-Docs
+
+# Repository
+repo_name: NameMCSniper-Docs
+repo_url: https://github.com/zwroee/NameMCSniper-Docs
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2024 NameMC Sniper Team
+
+# Configuration
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+# Navigation
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Configuration: getting-started/configuration.md
+    - Authentication: getting-started/authentication.md
+  - Usage:
+    - Basic Usage: usage/basic-usage.md
+    - Command Reference: usage/commands.md
+    - Discord Setup: usage/discord-setup.md
+    - Proxy Setup: usage/proxy-setup.md
+  - Advanced:
+    - How It Works: advanced/how-it-works.md
+    - Performance Optimization: advanced/performance.md
+    - Troubleshooting: advanced/troubleshooting.md
+  - Legal & Support:
+    - Legal Notice: legal/legal-notice.md
+    - Support: legal/support.md
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username/NameMcSniper
+  version:
+    provider: mike

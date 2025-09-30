@@ -1,0 +1,18 @@
+# MkDocs and Material Theme
+mkdocs>=1.5.0
+mkdocs-material>=9.4.0
+
+# Plugins
+mkdocs-minify-plugin>=0.7.0
+
+# Extensions
+pymdown-extensions>=10.0.0
+
+# Additional dependencies for enhanced functionality
+markdown>=3.4.0
+jinja2>=3.1.0
+markupsafe>=2.1.0
+
+# Optional: For better performance
+pyyaml>=6.0.0
+watchdog>=3.0.0
