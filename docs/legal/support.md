@@ -29,7 +29,7 @@ Get help with NameMC Sniper through various support channels and resources.
 - Documentation improvements
 
 **How to use:**
-1. Go to the [GitHub repository](https://github.com/zwroee/NameMCSniper-Docs)
+1. Go to the [GitHub repository](https://github.com/zwroee/NameMCSniper)
 2. Click "Issues" tab
 3. Search existing issues first
 4. Create new issue if needed
@@ -221,22 +221,17 @@ If you have suggestions for new features, please create an issue on GitHub with 
 
 ## :heart: Acknowledgments
 
-### Contributors
+### Authors
 
-Thank you to all contributors who have helped improve NameMC Sniper:
+NameMC Sniper is developed by:
 
-- **Core Developers** - Main codebase development
-- **Documentation Team** - Writing and maintaining docs
-- **Community Moderators** - Managing support channels
-- **Beta Testers** - Testing new features and releases
-- **Bug Reporters** - Identifying and reporting issues
+- **light** - Core developer
+- **zwroe** - Core developer
 
 ### Special Thanks
 
 - **Minecraft Community** - For the inspiration and feedback
 - **Open Source Projects** - Dependencies and tools we use
-- **Proxy Providers** - Testing and integration support
-- **Discord Community** - Active support and discussions
 
 ### Project Support
 
@@ -244,4 +239,4 @@ This is an open-source project provided as-is for educational purposes.
 
 ---
 
-**Need immediate help?** Start with the [Troubleshooting Guide](../advanced/troubleshooting.md) or search [existing issues](https://github.com/zwroee/NameMCSniper-Docs/issues) on GitHub.
+**Need immediate help?** Start with the [Troubleshooting Guide](../advanced/troubleshooting.md) or search [existing issues](https://github.com/zwroee/NameMCSniper/issues) on GitHub.

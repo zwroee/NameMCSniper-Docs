@@ -16,19 +16,29 @@ A powerful CLI Minecraft username sniper that uses the NameMC API with proxy sup
 - :art: **Rich CLI Interface** - Beautiful terminal output with colors and tables
 - :bar_chart: **Comprehensive Logging** - Detailed logs with configurable levels
 
+## :package: Download
+
+**Get NameMC Sniper:** [Download from GitHub](https://github.com/zwroee/NameMCSniper)
+
 ## :fast_forward: Quick Start
 
-1. **Install Dependencies**
+1. **Download NameMC Sniper**
+   ```bash
+   git clone https://github.com/zwroee/NameMCSniper.git
+   cd NameMCSniper
+   ```
+
+2. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Create Configuration**
+3. **Create Configuration**
    ```bash
    python Main.py config-create
    ```
 
-3. **Start Sniping**
+4. **Start Sniping**
    ```bash
    python Main.py snipe -u "DesiredUsername" -t "your_bearer_token"
    ```

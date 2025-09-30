@@ -14,12 +14,9 @@ This guide will help you install NameMC Sniper and its dependencies on your syst
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd NameMcSniper
+git clone https://github.com/zwroee/NameMCSniper.git
+cd NameMCSniper
 ```
-
-!!! tip "Repository URL"
-    Replace `<repository-url>` with the actual repository URL where NameMC Sniper is hosted.
 
 ### 2. Install Python Dependencies
 

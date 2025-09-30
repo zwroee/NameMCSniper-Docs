@@ -1,15 +1,15 @@
 site_name: NameMC Sniper Documentation
 site_description: A powerful CLI Minecraft username sniper with proxy support and Discord notifications
-site_author: NameMC Sniper Team
+site_author: light & zwroe
 site_url: https://zwroee.github.io/NameMCSniper-Docs
 
 # Repository
-repo_name: NameMCSniper-Docs
-repo_url: https://github.com/zwroee/NameMCSniper-Docs
-edit_uri: edit/main/docs/
+repo_name: NameMCSniper
+repo_url: https://github.com/zwroee/NameMCSniper
+edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2024 NameMC Sniper Team
+copyright: Copyright &copy; 2024 light & zwroe
 
 # Configuration
 theme:
@@ -91,6 +91,6 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username/NameMcSniper
+      link: https://github.com/zwroee/NameMCSniper
   version:
     provider: mike

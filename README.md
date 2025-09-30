@@ -1,6 +1,6 @@
 # NameMC Sniper Documentation
 
-This repository contains the complete documentation for NameMC Sniper, built with MkDocs and Material theme.
+This repository contains the complete documentation for [NameMC Sniper](https://github.com/zwroee/NameMCSniper), built with MkDocs and Material theme.
 
 ## 🚀 Quick Start
 
@@ -218,8 +218,8 @@ This documentation is licensed under the MIT License - see the [LICENSE](LICENSE
 - **MkDocs** - Static site generator
 - **Material for MkDocs** - Beautiful theme
 - **Python Markdown** - Markdown processing
-- **Contributors** - Everyone who helped improve this documentation
+- **light & zwroe** - Authors of NameMC Sniper
 
 ---
 
-**Documentation for NameMC Sniper** - A powerful CLI Minecraft username sniper tool.
+**Documentation for [NameMC Sniper](https://github.com/zwroee/NameMCSniper)** - A powerful CLI Minecraft username sniper tool by light & zwroe.
